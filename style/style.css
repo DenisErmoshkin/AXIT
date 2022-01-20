@@ -3,16 +3,7 @@ body {
     background-image: url(../img/section_1/back_img.jpg);
     background-position: top center;
     background-repeat: no-repeat;
-}
-
-.section {
-    width: auto;
-    max-width: 1400px;
-}
-
-.section__wrapp {
-    width: 1100px;
-    margin-top: 110px;
+    
 }
 
 /*>>>>>>>>>>>>>> HEADER <<<<<<<<<<<<<<<*/
@@ -21,6 +12,7 @@ body {
     width: auto;
     max-width: 1400px;
     background-color: rgb(0, 0, 0);
+
 }
 
 .head-wrapp {
@@ -137,7 +129,6 @@ body {
 
 .section-2__wrapp {
     width: 1100px;
-    margin-top: 0px;
 }
 
 .block-media__title {
@@ -480,14 +471,13 @@ body {
 .section-8 {
     width: auto;
     padding-top: 100px;
-    padding-bottom: 70px;
+    padding-bottom: 101px;
     max-width: 1400px;
-
 }
 
 .section-8__wrapp {
     position: relative;
-    width: 1250px;
+    width: 1300px;
 }
 
 .section-8-title {
@@ -499,52 +489,198 @@ body {
     position: absolute;
     content: ' ';
     width: 62px;
-    margin-top: 22px;
-    left: 593px;
+    margin-top: 21px;
+    left: 617px;
     border: 1px solid #ff9b51;
 }
 
 .section-8-subtitle {
     margin-top: 50px;
 }
-.section-8-subtitle__text {
-}
 
 .block-column-1__wrapp {
+    margin-top: 55px;
 }
 
 .block-column-1 {
-    width: 275px;
+    width: 290px;
     text-align: left;
-    margin: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .block-column-1__subtitle {
-    min-height: 150px;
-    background-image: url(img/section_8/avatar.png);
+    min-height: 160px;
+    background-image: url(../img/section_8/1.jpg);
     background-position: top center;
-    border: 1px solid green;
-    
+    background-repeat: no-repeat;   
 }
 
 .block-column-1__text {
-    margin-left: 15px;
+    margin-left: 22px;
+    margin-right: 10px;
+    margin-top: 20px;
 }
 
 .block-ident {
-}
-
-.block-ident__img {
-}
-.block-ident__title {
+    margin-left: 12px;
+    margin-top: -8px;
 }
 
 .block-ident__name {
+    margin-left: 16px;
 }
 
 .block-ident__prof {
-}
+    margin-left: 14px;
+    margin-top: 3px;
+} 
 /*>>>>>>>>>>>> END SECTION-8 <<<<<<<<<<<<<*/
 
 /*>>>>>>>>>>>>>> SECTION-9 <<<<<<<<<<<<<<<*/
+section-9 {
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 63px;
+    max-width: 1400px;
+    background-image: url(../img/section_9/background.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.section-9__wrapp {
+    position: relative;
+    width: 1300px;
+}
+
+.section-9-title {
+    margin-top: 17px;
+}
+
+.section-9-title::after {
+    position: absolute;
+    content: ' ';
+    width: 62px; 
+    margin-top: 20px;
+    left: 617px;
+    border: 1px solid #ffff;
+}
+
+.section-9-subtitle {
+    margin-top: 51px;
+}
+
+.website-present-button-1 {
+    margin-left: 1px;
+    margin-top: 30px;
+    width: 131px;
+    height: 38px;
+    border: 2px solid white;
+}
+
 /*>>>>>>>>>>>> END SECTION-9 <<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>> SECTION-10 <<<<<<<<<<<<<<<*/
+
+.section-10 {
+    width: auto;
+    padding-top: 100px;
+    padding-bottom: 82px;
+    max-width: 1400px;
+}
+
+.section-10__wrapp {
+    position: relative;
+    width: 1100px;
+}
+
+.section-10-title::after {
+    position: absolute;
+    content: ' ';
+    width: 62px;
+    margin-top: 21px;
+    left: 517px;
+    border: 1px solid #ff9b51;
+}
+
+.section-10-subtitle {
+    margin-top: 49px;
+}
+
+.footer-form__wrapp {
+    width: 1100px;
+}
+
+.footer-form__left {
+    margin-top: 50px;
+}
+
+.footer-form__input {
+    width: 513px;
+    height: 20px;
+    margin-top: 37px;
+    border: 0px;
+    border-bottom: 1px solid #d6d4d4;
+}
+
+.footer-form__right {
+    margin-top: 85px;
+}
+
+.footer-form__textarea {
+    margin-left: 80px;
+    width: 495px;
+    height: 142px;
+    border: 0px;
+    border-bottom: 1px solid #d6d4d4;
+}
+
+.section-10__button {
+    width: 145px;
+    height: 44px;
+    margin-top: 40px;
+    border-radius: 4px;
+    border: 0px;
+    background-color: #ff9b51;
+}
+
+/*>>>>>>>>>>>> END SECTION-10 <<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>> FOOTER <<<<<<<<<<<<<<<*/
+.footer {
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 1400px;
+    background-color: black;
+}
+
+.footer__wrapp {
+    position: relative;
+    width: 1000px;
+}
+
+.ss-nav-menu-footer__list {
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ss-nav-menu-footer__item {
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.footer__copyright {
+    font-size: 12px;
+    font-family: 'Open Sans' ;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255);  
+    line-height: 1.2;
+}
+/*>>>>>>>>>>>> END FOOTER <<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>> SECTION-9 <<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>> END SECTION-9 <<<<<<<<<<<<<*/
+
